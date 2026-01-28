@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 HA_URL = os.getenv("HA_URL")
-HA_TOKEN = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI0NTI5YWRhZTUyZTY0NGJkYmYxNDU3MDlhNDA1ODcyNCIsImlhdCI6MTc2NzM3MjA4NSwiZXhwIjoyMDgyNzMyMDg1fQ.FaoEMOd4Mc1HG-tbpL03rejd1-l9AUo8ZHfOYI0IGds")
+HA_TOKEN = os.getenv(" Token ")
 
 HEADERS = {
     "Authorization": f"Bearer {HA_TOKEN}",
